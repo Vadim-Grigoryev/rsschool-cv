@@ -3,7 +3,7 @@
 #Vadim Grigoryev
 
 ##Student of rs-school
-![Picture](C:\Users\minis\Desktop\vadim.jpg"Picture")
+![Picture](rsschcool\vadim.jpg"Picture")
 
 ==================================================
 ##Contacts:
