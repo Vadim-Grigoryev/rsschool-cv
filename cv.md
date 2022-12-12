@@ -7,6 +7,7 @@
 ![Picture](https://github.com/Vadim-Grigoryev/rsschool-cv/blob/gh-pages/vadim.jpg "Picture")
 
 ==================================================
+
 ##Contacts:
 + e-mail: minisefo@mail.ru
 + phone: +375(44)767-67-75
