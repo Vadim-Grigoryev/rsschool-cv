@@ -3,7 +3,8 @@
 #Vadim Grigoryev
 
 ##Student of rs-school
-![Picture](rsschcool\vadim.jpg"Picture")
+
+![Picture](https://github.com/Vadim-Grigoryev/rsschool-cv/blob/gh-pages/vadim.jpg"Picture")
 
 ==================================================
 ##Contacts:
