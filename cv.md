@@ -3,7 +3,7 @@
 #Vadim Grigoryev
 
 ##Student of rs-school
-![Picture](\Desktop\vadim.jpg)
+![Picture](C:\Users\minis\Desktop\vadim.jpg"Picture")
 
 ==================================================
 ##Contacts:
@@ -13,7 +13,7 @@
 + discord-chat: Vadim(@Vadim-Grigoryev)
 
 **************************************************
-My name is Vadim. I am taking an additional course to become a junior front-end developer. I graduated from the Belarussian-Russian University in Mogilev, Belarus and started a career of mechanical engineer in 2011. However, an IT career seems more preferable to me nowadays. My ambition is to become a skillful front-end software engineer, gaining new knowledge is a great pleasure for me. 
+Hello! My name is Vadim. I am taking an additional course to become a junior front-end developer. I graduated from the Belarussian-Russian University in Mogilev, Belarus and started a career of mechanical engineer in 2011. However, an IT career seems more preferable to me nowadays. My ambition is to become a skillful front-end software engineer, gaining new knowledge is a great pleasure for me. 
 
 **************************************************
 ##*HARD SKILLS*
