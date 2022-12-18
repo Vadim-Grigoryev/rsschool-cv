@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 50px minmax(auto, 1fr) minmax(100px, 1fr) 150px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'header'
+        'main'
+        'info'
+        'footer';
+    background-color: #000000;
+    color: #FFFAFA;
+}
+
+h2 {
+    text-align: center;
+}
+
+.header {
+    grid-area: header;
+    font-family: 'Rubik Vinyl', cursive;
+    height: 50px;
+    width: 100%;
+    border: dashed #F0E68C 4px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation {
+    flex: 0 5 auto;
+
+}
+
+.navigation > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ADFF2F;
+}
+
+.navigation > a:hover {
+    background-color: #FF4500;
+    transition: 1.5s;
+}
+
+.main {
+    grid-area: main;
+    display: flex;
+    padding: 10px;
+}
+
+.main section {
+    flex: 0 5 auto;
+}
+
+.two {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.picture {
+    max-width: 150px;
+    float: left;
+}
+
+.info {
+    grid-area: info;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1f 1f;
+    font-size: 16px;
+}
+
+.code {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 10px;
+}
+
+.skills {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin-right: 10px;
+}
+
+.education {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-left: 10px;
+}
+
+.post {
+    grid-row: 3/4;
+    grid-column: 2/3;
+margin-right: 10px;}
+
+.works {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-left: 10px;
+}
+
+.languages {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-right: 10px;
+}
+
+.education > a,
+.post > a {
+    color: #FFFAFA
+}
+
+.works a {
+    color: #F0E68C
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-image: linear-gradient(0deg, #F0E68C 30%, #DEB887 70%, #B8860B 100%);
+    color: #000000;
+}
+footer a{
+  flex-shrink: 8;
+    font-size: 20px;
+    color: #800000;
+}
+.rs {max-width: 150px;}
+
+@media only all and (max-width:800px) {
+    nav {
+        flex-direction: column;
+    }
+
+    header {
+        width: 150px;
+        height: 200px;
+        border: none;
+    }
+
+    .one {
+        margin-top: 150px;
+    }
+
+    .two {
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+}
+@media only all and (max-width:600px){
+    .footer{flex-direction: column;
+    justify-content: center;
+    align-items: center}
+}
