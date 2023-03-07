@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,12 +36,19 @@
         <section class="info">
             <div class="code" id="code">
                 <h2>Code</h2><code>
-                    function getCountryInfo(countryName) { <br>
-                    if ( countryName in countrysH ) <br>
-                    return 'страна: ' + countryName + ' столица: ' + countrysH[countryName] ; <br>
-                    else <br>
-                    return 'нет информации о стране ' + countryName + '!' ;<br>
-                    } <br>
+                    function solution(str, ending){ <br>
+                        return str.endsWith(ending); <br>
+                      } <br>
+
+                      function strCount(obj){<br>
+                      let count=0;<br>
+                      for (let key in obj) {<br>
+                       if(typeof(obj[key])==='string'){<br>
+                         count++<br>
+                       } else  count= count+strCount(obj[key]) <br>
+                      }<br>
+                      return count<br>
+                      }<br>
                 </code>
             </div>
             <div class="skills" id="skills">
@@ -62,10 +68,8 @@
             <div class="works" id="works">
                 <h2>Works</h2>
                 <ul>
-                    <li><a href="http://fe.it-academy.by/EditSite.php?site=41841">Footbal</a></li>
-                    <li><a href="http://fe.it-academy.by/Sites/0041841/FRAME.html">Frame</a></li>
-                    <li><a href="http://fe.it-academy.by/Sites/0042216/countries.html">Countries</a></li>
-                    <li> <a href="http://fe.it-academy.by/Sites/0041637/childbook.html">Childbook</a></li>
+                    <li><a href="https://vadim-grigoryev.github.io/plants/">Plants</a></li>
+                    <li><a href="https://vadim-grigoryev.github.io/momentum/">Momentum</a></li>
                 </ul>
             </div>
             <div class="languages">
@@ -78,7 +82,7 @@
             </div>
         </section>
         <footer class="footer">
-           <a href="https://github.com/Vadim-Grigoryev/" title="my git-hub page" target="_blank">My git-hub page</a> <span>Vadim Grigoryev, 2022</span>
+           <a href="https://github.com/Vadim-Grigoryev/" title="my git-hub page" target="_blank">My git-hub page</a> <span>Vadim Grigoryev, 2023</span>
           <a href="https://rs.school/" title="RS School" target="_blank">  <img class="rs" src="pics/rs_school_js.svg" alt="RS School"></a>
             <a href="https://rs.school/js/" target="_blank" title="RS School">RS School free of charge courses</a>
         </footer>

@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
-}
+ }
 
 .container {
+    margin: 0 auto;
     display: grid;
-    grid-template-rows: 50px minmax(auto, 1fr) minmax(100px, 1fr) 150px;
+    grid-template-rows: 50px minmax(auto,1f) minmax(100px, 1fr) 150px;
     grid-template-columns: 1fr;
     grid-template-areas:
         'header'
@@ -141,6 +142,18 @@ footer a{
     color: #800000;
 }
 .rs {max-width: 150px;}
+
+@media only all and (max-width:1600px) {
+    .container {
+    grid-template-rows: 50px minmax(auto, 400px) minmax(100px, 1fr) 150px;
+}
+}
+
+@media only all and (max-width:1000px) {
+    .container {
+    grid-template-rows: 50px auto minmax(100px, 1fr) 150px;
+}
+}
 
 @media only all and (max-width:800px) {
     nav {
