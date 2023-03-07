@@ -36,13 +36,21 @@
         </div>
         <section class="info">
             <div class="code" id="code">
-                <h2>Code</h2><code>
-                    function getCountryInfo(countryName) { <br>
-                    if ( countryName in countrysH ) <br>
-                    return 'страна: ' + countryName + ' столица: ' + countrysH[countryName] ; <br>
-                    else <br>
-                    return 'нет информации о стране ' + countryName + '!' ;<br>
-                    } <br>
+                <h2>Code</h2>
+                <code>
+                   function solution(str, ending){
+  return str.endsWith(ending);
+}
+
+function strCount(obj){
+let count=0;
+for (let key in obj) {
+ if(typeof(obj[key])==='string'){
+   count++
+ } else  count= count+strCount(obj[key]) 
+}
+return count
+}
                 </code>
             </div>
             <div class="skills" id="skills">
@@ -78,7 +86,7 @@
             </div>
         </section>
         <footer class="footer">
-           <a href="https://github.com/Vadim-Grigoryev/" title="my git-hub page" target="_blank">My git-hub page</a> <span>Vadim Grigoryev, 2022</span>
+           <a href="https://github.com/Vadim-Grigoryev/" title="my git-hub page" target="_blank">My git-hub page</a> <span>Vadim Grigoryev, 2023</span>
           <a href="https://rs.school/" title="RS School" target="_blank">  <img class="rs" src="pics/rs_school_js.svg" alt="RS School"></a>
             <a href="https://rs.school/js/" target="_blank" title="RS School">RS School free of charge courses</a>
         </footer>
