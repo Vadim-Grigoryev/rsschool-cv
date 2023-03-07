@@ -15,7 +15,7 @@
 + discord-chat: Vadim(@Vadim-Grigoryev)
 
 **************************************************
-Hello! My name is Vadim. I am taking an additional course to become a junior front-end developer, JS / FRONT-END (RU) if to be more precise. I finished JS / FRONT-END. STAGE 0 (RU) more or less successfully, however my grade was not enough to gain a certificate. Nevertheless, the course was extremely useful for me. As for my general education, I graduated from the Belarussian-Russian University in Mogilev, Belarus and started a career of mechanical engineer in 2011. However, an IT career seems more preferable to me nowadays. My ambition is to become a skillful front-end software engineer, gaining new knowledge is a great pleasure for me. 
+Hello! My name is Vadim. I am taking an additional course to become a junior front-end developer, JS / FRONT-END (RU) if to be more precise. I finished JS / FRONT-END. STAGE 0 (RU) more or less successfully. However, my grade was not enough to gain a certificate. Nevertheless, the course was extremely useful for me. As for my general education, I graduated from the Belarussian-Russian University in Mogilev, Belarus and started a career of mechanical engineer in 2011. However, an IT career seems more preferable to me nowadays. My ambition is to become a skillful front-end software engineer, gaining new knowledge is a great pleasure for me. 
 
 **************************************************
 
