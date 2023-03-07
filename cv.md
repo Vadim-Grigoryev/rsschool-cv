@@ -4,7 +4,7 @@
 
 ##Student of rs-school
 
-![Picture](https://github.com/Vadim-Grigoryev/rsschool-cv/blob/gh-pages/vadim2.jpg "Picture")
+![Picture](https://raw.githubusercontent.com/Vadim-Grigoryev/rsschool-cv/gh-pages/vadim2.jpg "Picture")
 
 ==================================================
 
