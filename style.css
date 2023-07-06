@@ -2,10 +2,18 @@
     box-sizing: border-box;
  }
 
+.html, .body {
+    height: 100%;
+    margin: 0 auto;
+}
+
 .container {
+    min-height: 100%;
+    padding: 0;
+    width: 1480px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 50px minmax(auto,1f) minmax(150px, 1fr) 150px;
+    grid-template-rows: 50px minmax(auto,1f) minmax(150px, auto) 150px;
     grid-template-columns: 1fr;
     grid-template-areas:
         'header'
@@ -143,7 +151,7 @@ img {
     background-image: linear-gradient(0deg, #F0E68C 30%, #DEB887 70%, #B8860B 100%);
     color: #000000;
 }
-footer a{
+.footer a{
   flex-shrink: 8;
     font-size: 20px;
     color: #800000;
@@ -163,11 +171,11 @@ footer a{
 }
 
 @media only all and (max-width:800px) {
-    nav {
+    .nav1 {
         flex-direction: column;
     }
 
-    header {
+    .header {
         width: 150px;
         height: 200px;
         border: none;
