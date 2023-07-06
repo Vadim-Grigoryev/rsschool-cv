@@ -164,6 +164,13 @@ img {
 }
 }
 
+@media only all and (max-width:1497px) {
+    .container {
+    width: 100%;
+}
+}
+
+
 @media only all and (max-width:1000px) {
     .container {
     grid-template-rows: 50px auto minmax(100px, 1fr) 150px;
